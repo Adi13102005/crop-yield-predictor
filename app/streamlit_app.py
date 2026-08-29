@@ -121,6 +121,6 @@ if submitted:
 
 st.divider()
 st.caption(
-    "Note: trained on synthetic data for demo purposes. Swap `data/crop_data.csv` "
+    "Note: trained on synthetic data for demo purposes."
    
 )
