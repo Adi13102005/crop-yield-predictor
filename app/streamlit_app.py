@@ -122,6 +122,5 @@ if submitted:
 st.divider()
 st.caption(
     "Note: trained on synthetic data for demo purposes. Swap `data/crop_data.csv` "
-    "with a real dataset (same column names) and rerun `models/train.py` to use "
-    "real-world data."
+   
 )
