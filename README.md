@@ -75,19 +75,3 @@ curl -X POST http://127.0.0.1:8000/predict \
   }'
 ```
 
-## Next steps to make this stronger
-
-- [ ] Replace synthetic data with a real dataset (ICRISAT, data.gov.in, or
-      Kaggle's "Crop Recommendation Dataset")
-- [ ] Add SHAP for per-prediction explainability (not just global feature importance)
-- [ ] Add a `/batch-predict` endpoint that accepts a CSV upload
-- [ ] Deploy: API on Render/Railway, Streamlit app on Streamlit Community Cloud
-- [ ] Add tests (pytest) for the API endpoints
-- [ ] Add a simple CI pipeline (GitHub Actions) that runs tests on push
-
-## Resume bullet
-
-> Built and deployed an end-to-end ML pipeline predicting crop yield from
-> soil, weather, and nutrient data; compared 3 regression models
-> (R² = 0.97), served via a FastAPI REST API with an interactive
-> Streamlit interface.
