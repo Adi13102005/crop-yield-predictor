@@ -121,12 +121,5 @@ if submitted:
 
 st.divider()
 st.caption(
-<<<<<<< HEAD
-    ""
-   
+    "   "
 )
-=======
-    "  "
-   
-)
->>>>>>> 6f01ef1 (Update crop yield prediction project)
