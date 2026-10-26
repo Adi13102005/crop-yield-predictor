@@ -58,10 +58,10 @@ if submitted:
     entry = per_crop_models[crop]
     pipeline = entry["pipeline"]
 
-    st.caption(
-        f"Model for {crop}: {entry['model_name']}  |  "
-        f"R² = {entry['metrics']['R2']}  |  MAE = {entry['metrics']['MAE']} t/ha"
-    )
+    #st.caption(
+        #f"Model for {crop}: {entry['model_name']}  |  "
+        #f"R² = {entry['metrics']['R2']}  |  MAE = {entry['metrics']['MAE']} t/ha"
+    #)
 
     input_df = pd.DataFrame([{
         "region": region, "soil_type": soil_type,
@@ -121,6 +121,12 @@ if submitted:
 
 st.divider()
 st.caption(
+<<<<<<< HEAD
     ""
    
 )
+=======
+    "  "
+   
+)
+>>>>>>> 6f01ef1 (Update crop yield prediction project)
